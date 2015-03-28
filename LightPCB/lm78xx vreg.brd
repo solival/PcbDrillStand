@@ -1597,7 +1597,7 @@ Design limitation for dry film photoresist and manual drilling.
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="2"/>
 <contactref element="JP1" pad="1"/>
-<polygon width="0.4064" layer="1" isolate="0.6096">
+<polygon width="0.4064" layer="1" isolate="0.8128">
 <vertex x="0" y="31.115"/>
 <vertex x="34.925" y="31.115"/>
 <vertex x="34.925" y="-0.635"/>
