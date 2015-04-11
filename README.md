@@ -1,11 +1,17 @@
 # PCB Drill Press Stand
-This is small neat drill press stand designed for laser printer engines widely sold on ebay/aliexpress.
+This is small neat drill press stand designed to use laser printer engines widely sold on ebay/aliexpress.
 This project based on http://www.thingiverse.com/thing:144333 by Mark Benson design with next improvements:
+
 - Designed for engine body sized L=35-60mm D=30mm
+- Shifted base hole to center drill according new motor diameter
 - Added 3x 3mm super light LED holders focused on drill working area
-- Added PCB with voltage regulator and connector for standard notebook power unit (which is used for drill and light). This can be easily changed on any power source up to 24v (only connector should be changed in this case).
+- Added PCB with voltage regulator and connector for standard notebook power unit (which is used for drill and light). This can be easily changed on any power source up to 24v (only connector should be changed in this case)
+- Added holes in slider to mount PCB
+- Added hole on left side of fixed sliding wedge for balancing spring/rubber.
 
 Apart from that no big changes. I print gears with 40% filament and all other parts with 20% filament. Works fine.
+
+This thing on thingiverse: http://www.thingiverse.com/thing:766712
 
 # Photos
 Drill Press Stand assembled
@@ -41,7 +47,7 @@ LED Light board layout
 ## Mechanics
 - ABS or PLA filament
 - Drill chuck
-- M5 Threaded rod (about 110mm)
+- Threaded rod M5 (about 110mm)
 - Threaded rod M8 (about 95mm and 80mm). One is for stand, second is for gear and fixed slider.
 - 6x M8 nut, nyloc (better 8x for stand tightening)
 - 4x 8mm washer
