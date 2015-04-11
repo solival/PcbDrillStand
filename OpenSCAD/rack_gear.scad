@@ -11,7 +11,7 @@
 // Call module here to render model for printing
 // Comment out when calling from drill_press_assembly or you 
 // will end up with two copies of the model.
-slideGear();
+//slideGear();
 
 
 // Include publicDomainGearV1.1.scad to generate gear

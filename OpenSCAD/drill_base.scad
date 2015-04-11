@@ -11,7 +11,7 @@
 // Call module here to render model for printing
 // Comment out when calling from drill_press_assembly or you 
 // will end up with two copies of the model.
-base();
+//base();
 
 
 //Include Joseph Prusas lib for nuts
@@ -35,7 +35,7 @@ difference()
 	}
 	//end hull
 
-	translate([0,19,-3])
+	translate([0,22,-3])
 	rotate([0,0,0])
 	cylinder(r=10/2, h=15, $fn=50);
 

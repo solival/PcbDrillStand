@@ -55,6 +55,11 @@ union()
 		translate([-18.5,7,-0])
 		rotate([90,0,0])
 		cylinder(r=3.2/2, h=11, $fn=50, center=true);
+
+		//Additional Hole for M3 screw to hold return spring
+		translate([18.5,7,-0])
+		rotate([90,0,0])
+		cylinder(r=3.2/2, h=11, $fn=50, center=true);        
 	}
 	
 	translate([22.5,-1.5 ,2.5])

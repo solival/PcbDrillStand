@@ -49,6 +49,23 @@ countersunkScrewHeadM3();
 translate([-10,20,-40])
 rotate([90,0,0])
 countersunkScrewHeadM3();
+
+// Holes for PCB mount screws
+translate([-11.5,20,45])
+rotate([90,0,0])
+cylinder(r=2/2, h=20, center=true, $fn=50);
+
+translate([10.5,20,45])
+rotate([90,0,0])
+cylinder(r=2/2, h=20, center=true, $fn=50);
+
+translate([-11.5,20,20])
+rotate([90,0,0])
+cylinder(r=2/2, h=20, center=true, $fn=50);
+
+translate([10.5,20,20])
+rotate([90,0,0])
+cylinder(r=2/2, h=20, center=true, $fn=50);
 }
 
 //screw hole (counter sunk) for securing drill mount to sliding plate
